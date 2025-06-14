@@ -10,7 +10,7 @@ async def main():
     reader = Reader(client)
     
     dialogs = await reader.get_all_messages_for_analysis(dialog_limit=10, dialog_days=365, message_days= 5, message_limit=100)
-    print(dialogs[2]['messages'])
+    print(dialogs[0]["dialog"]["id"])
    
     await client.disconnect()  
 

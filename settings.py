@@ -15,3 +15,4 @@ api_hash = str(config['Telegram']['api_hash'])
 phone =  config['Telegram']['phone']
 username = config['Telegram']['username']
 
+mistal_api_key = config['MistralAI']['mistal_api_key']
