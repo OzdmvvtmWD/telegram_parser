@@ -1,6 +1,6 @@
 import logging
 from telethon import TelegramClient
-from settings import username, api_id, api_hash
+from settings.settings import username, api_id, api_hash
 
 class Client(TelegramClient):
     def __init__(self):
